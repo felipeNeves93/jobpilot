@@ -26,7 +26,7 @@ A job-search tracker (companies, job postings, applications and interview stages
 ## Run it
 
 ```bash
-git clone https://github.com/<your-user>/jobpilot.git
+git clone https://github.com/felipeNeves93/jobpilot.git
 cd jobpilot
 ./mvnw spring-boot:run
 ```
