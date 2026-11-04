@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: 'postgres:17'
+    environment:
+      - 'POSTGRES_DB=jobpilot'
+      - 'POSTGRES_PASSWORD=jobpilot'
+      - 'POSTGRES_USER=jobpilot'
+    ports:
+      - '5432'
+    volumes:
+      - 'jobpilot-data:/var/lib/postgresql/data'
+
+volumes:
+  jobpilot-data:
